@@ -10,7 +10,7 @@ end
 __END__
 
 @@ index
-<h2>Behold our users!</h2>
+<h2>Behold our users!!!!!!!!</h2>
 <ul>
   <% @users.each do |user| %>
     <li><%= user.username %></li>
