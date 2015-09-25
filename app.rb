@@ -7,6 +7,16 @@ get '/' do
   erb :index
 end
 
+post '/commitments' do
+  email = params[:email]
+
+  p email
+  @users = User.all
+  erb :index
+end
+
+
+
 __END__
 
 @@ index
