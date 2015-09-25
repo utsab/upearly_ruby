@@ -10,9 +10,7 @@ end
 post '/commitments' do
   email = params[:email]
 
-  p email
-  @users = User.all
-  erb :index
+  email
 end
 
 
