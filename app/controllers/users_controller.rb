@@ -22,6 +22,8 @@ class UsersController < ApplicationController
   def send_email
     p "$" * 200
     p "in send_email"
+    p "params: #{params}"
+    p "email: #{params[:email]}"
     p "$" * 200
 
     @x = "hurrah"
