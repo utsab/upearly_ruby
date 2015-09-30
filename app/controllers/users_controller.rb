@@ -45,7 +45,9 @@ class UsersController < ApplicationController
     }
     sending = m.messages.send message
     p "sending: #{sending}"
-    render :json => sending
+
+    r = {"id" => "423"}
+    render :json => r
   end
 
   private
