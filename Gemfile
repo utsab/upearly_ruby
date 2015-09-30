@@ -46,6 +46,9 @@ group :development do
 end
 
 gem 'rails_12factor', group: :production
+
+gem 'mandrill-api'
+
 ruby "2.2.1"
 
 
